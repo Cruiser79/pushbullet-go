@@ -9,7 +9,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/mitsuse/pushbullet-go/responses"
+	"github.com/Cruiser79/pushbullet-go/responses"
 )
 
 // Post the information of file and get the information of upload destination.

@@ -1,7 +1,7 @@
 package responses
 
 import (
-	"github.com/mitsuse/pushbullet-go/requests"
+	"github.com/Cruiser79/pushbullet-go/requests"
 )
 
 type Push struct {

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-base_package=github.com/mitsuse/pushbullet-go
+base_package=github.com/Cruiser79/pushbullet-go
 base_path=${GOPATH}/src/${base_package}
 
 package_list=(

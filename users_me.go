@@ -5,7 +5,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/mitsuse/pushbullet-go/responses"
+	"github.com/Cruiser79/pushbullet-go/responses"
 )
 
 // Get the current user.

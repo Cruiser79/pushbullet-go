@@ -5,7 +5,7 @@
 [![Wercker](http://img.shields.io/wercker/ci/54eb41b6d9b14636631c567f.svg?style=flat-square)][wercker]
 
 [license]: LICENSE.txt
-[godoc]: http://godoc.org/github.com/mitsuse/pushbullet-go
+[godoc]: http://godoc.org/github.com/Cruiser79/pushbullet-go
 [wercker]: https://app.wercker.com/project/bykey/2153719836dc1ecc109b8daf75beb7e1
 
 A library to call [Pushbullet HTTP API](https://docs.pushbullet.com/#http) for Golang. 
@@ -15,7 +15,7 @@ A library to call [Pushbullet HTTP API](https://docs.pushbullet.com/#http) for G
 Just execute the following command:
 
 ```bash
-$ go get -u github.com/mitsuse/pushbullet-go/...
+$ go get -u github.com/Cruiser79/pushbullet-go/...
 ```
 
 ## Example
@@ -29,8 +29,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/mitsuse/pushbullet-go"
-	"github.com/mitsuse/pushbullet-go/requests"
+	"github.com/Cruiser79/pushbullet-go"
+	"github.com/Cruiser79/pushbullet-go/requests"
 )
 
 func main() {

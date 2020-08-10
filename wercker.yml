@@ -1,4 +1,4 @@
-box: mitsuse/golang
+box: Cruiser79/golang
 build:
     steps:
         - setup-go-workspace
@@ -12,6 +12,6 @@ build:
                 bash coverage.bash
                 bash goveralls.bash
     after-steps:
-        - mitsuse/bullet-send:
+        - Cruiser79/bullet-send:
             title: "${WERCKER_GIT_REPOSITORY} - Build ${WERCKER_RESULT}."
             path: "${WERCKER_BUILD_URL}"
